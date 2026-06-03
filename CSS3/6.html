@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Link and List Styling</title>
+<style>
+body{
+    margin:0;
+    font-family:Arial;
+    background:#eef2f7;
+}
+header{
+    background:#004080;
+    padding:20px;
+    text-align:center;
+    color:white;
+}
+nav ul{
+    list-style-type:none;
+    padding:0;
+    margin:20px;
+    text-align:center;
+}
+nav ul li{
+    display:inline-block;
+    margin:10px;
+    padding:10px 20px;
+    background:white;
+    border-radius:8px;
+}
+a:link{
+    color:#004080;
+    text-decoration:none;
+}
+a:hover{
+    color:red;
+}
+a:active{
+    color:green;
+}
+a:visited{
+    color:purple;
+}
+.events{
+    width:300px;
+    margin:30px auto;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+}
+.events ul{
+    list-style-type:square;
+    list-style-position:inside;
+}
+.events li{
+    margin:10px 0;
+    padding:5px;
+}
+</style>
+</head>
+<body>
+<header>
+<h1>
+Community Event Portal
+</h1>
+</header>
+<nav>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Events</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</nav>
+<div class="events">
+<h2>
+Upcoming Activities
+</h2>
+<ul>
+<li>Music Festival</li>
+<li>Food Carnival</li>
+<li>Community Meetup</li>
+</ul>
+</div>
+</body>
+</html>

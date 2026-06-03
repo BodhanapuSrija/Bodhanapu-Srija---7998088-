@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Community Portal</title>
+<style>
+body{
+    background:#eef2f7;
+    font-family:Arial;
+    text-align:center;
+}
+h1{
+    padding:10px;
+}
+.box{
+    background:white;
+    width:320px;
+    margin:auto;
+    padding:15px;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+}
+button{
+    background:green;
+    color:white;
+    border:none;
+    padding:10px;
+    border-radius:5px;
+}
+</style>
+</head>
+<body>
+<h1 style="color:red;">
+Local Community Event Portal
+</h1>
+<div class="box">
+<img src="https://images.unsplash.com/photo-1511578314322-379afb476865?w=400"
+width="280" height="180">
+<h3>Community Meetup</h3>
+<p>
+Join local events and activities.
+</p>
+<button>
+Register
+</button>
+</div>
+</body>
+</html>

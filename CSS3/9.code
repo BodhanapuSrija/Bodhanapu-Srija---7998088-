@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Multi Column Layout</title>
+<style>
+body{
+    font-family:Arial;
+    background:#eef2f7;
+    padding:30px;
+}
+h1{
+    text-align:center;
+    color:#003366;
+}
+.news{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+
+    column-count:2;
+    column-gap:30px;
+    column-rule:1px solid gray;
+
+    line-height:1.8;
+    text-align:justify;
+}
+</style>
+</head>
+<body>
+<h1>
+Community Bulletin
+</h1>
+<div class="news">
+The local community festival was celebrated with great enthusiasm by residents and visitors. 
+Music performances, food stalls, cultural dances, and art exhibitions attracted large crowds 
+throughout the weekend. Organizers arranged activities for children and awareness programs 
+for environmental protection.
+
+Community leaders appreciated the participation of volunteers who helped maintain cleanliness 
+and guide visitors during the event. Citizens enjoyed local traditional foods and interactive 
+games organized in the central park.
+
+The city council announced that similar programs will continue every month to encourage unity, 
+cultural exchange, and public involvement in social activities. Residents expressed happiness 
+and requested more workshops and educational events in the future.
+</div>
+</body>
+</html>

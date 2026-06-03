@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Box Model Demo</title>
+<style>
+body{
+    font-family:Arial;
+    background:#eef2f7;
+    text-align:center;
+}
+.eventCard{
+    width:320px;
+    margin:30px auto;
+    padding:20px;
+    border:4px solid #0056b3;
+    background:white;
+    border-radius:10px;
+}
+img{
+    width:100%;
+    border-radius:10px;
+}
+input:focus{
+    outline:3px solid red;
+}
+.hiddenBox{
+    visibility:hidden;
+    background:orange;
+    padding:10px;
+    margin:10px;
+}
+.noneBox{
+    display:none;
+    background:green;
+    padding:10px;
+    margin:10px;
+}
+</style>
+</head>
+<body>
+<h1>
+Community Event Portal
+</h1>
+<div class="eventCard">
+<img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=400">
+<h2>
+Music Festival
+</h2>
+<p>
+Enjoy community events and activities.
+</p>
+<input type="text" placeholder="Enter Name">
+</div>
+<div class="hiddenBox">
+visibility:hidden Box
+</div>
+<div class="noneBox">
+display:none Box
+</div>
+</body>
+</html>
