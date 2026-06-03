@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Event Registration</title>
+<style>
+body{
+    font-family:Arial;
+    background:#eef2f7;
+    text-align:center;
+}
+form{
+    width:320px;
+    margin:40px auto;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+}
+input,select{
+    width:90%;
+    padding:10px;
+    margin:10px;
+}
+button{
+    background:#0056b3;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    cursor:pointer;
+}
+.error{
+    color:red;
+    font-size:14px;
+}
+.success{
+    color:green;
+    font-size:18px;
+}
+</style>
+</head>
+<body>
+<h1>
+Community Event Registration
+</h1>
+<form id="form">
+<input type="text"
+name="name"
+placeholder="Enter Name">
+<div class="error" id="nErr"></div>
+<input type="email"
+name="email"
+placeholder="Enter Email">
+<div class="error" id="eErr"></div>
+<select name="event">
+<option value="">
+Select Event
+</option>
+<option>
+Music Festival
+</option>
+<option>
+Food Carnival
+</option>
+</select>
+<div class="error" id="evErr"></div>
+<button>
+Register
+</button>
+</form>
+<h2 id="msg"></h2>
+<script src="main.js"></script>
+</body>
+</html>

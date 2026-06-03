@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Event Functions</title>
+<style>
+body{
+    font-family:Arial;
+    background:#eef2f7;
+    text-align:center;
+}
+#events{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+.card{
+    width:250px;
+    background:white;
+    margin:15px;
+    padding:15px;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+}
+button{
+    background:#0056b3;
+    color:white;
+    border:none;
+    padding:8px 15px;
+    border-radius:5px;
+    cursor:pointer;
+}
+img{
+    width:100%;
+    border-radius:10px;
+}
+</style>
+</head>
+<body>
+<h1>
+Community Event Portal
+</h1>
+<div id="events"></div>
+<h2 id="count"></h2>
+<script src="main.js"></script>
+</body>
+</html>

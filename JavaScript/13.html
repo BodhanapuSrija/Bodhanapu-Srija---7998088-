@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Debugging Demo</title>
+<style>
+body{
+    font-family:Arial;
+    background:#eef2f7;
+    text-align:center;
+}
+form{
+    width:320px;
+    margin:40px auto;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+}
+input{
+    width:90%;
+    padding:10px;
+    margin:10px;
+}
+button{
+    background:#0056b3;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    cursor:pointer;
+}
+#msg{
+    margin-top:20px;
+    font-size:18px;
+}
+</style>
+</head>
+<body>
+<h1>
+Community Registration
+</h1>
+<form id="form">
+<input type="text"
+id="name"
+placeholder="Enter Name">
+<input type="email"
+id="email"
+placeholder="Enter Email">
+<button>
+Register
+</button>
+</form>
+<h2 id="msg"></h2>
+<script src="main.js"></script>
+</body>
+</html>

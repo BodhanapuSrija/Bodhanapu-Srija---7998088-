@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Modern JavaScript</title>
+<style>
+body{
+    font-family:Arial;
+    background:#eef2f7;
+    text-align:center;
+}
+#events{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+.card{
+    width:260px;
+    background:white;
+    margin:15px;
+    padding:15px;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+}
+img{
+    width:100%;
+    border-radius:10px;
+}
+</style>
+</head>
+<body>
+<h1>
+Modern JS Events
+</h1>
+<div id="events"></div>
+<script src="main.js"></script>
+</body>
+</html>

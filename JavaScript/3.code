@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Event List</title>
+<style>
+body{
+    font-family:Arial;
+    background:#eef2f7;
+    text-align:center;
+}
+#events{
+    width:350px;
+    margin:30px auto;
+}
+.card{
+    background:white;
+    margin:15px;
+    padding:15px;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+}
+button{
+    background:#0056b3;
+    color:white;
+    border:none;
+    padding:8px 15px;
+    border-radius:5px;
+    cursor:pointer;
+}
+</style>
+</head>
+<body>
+<h1>
+Upcoming Community Events
+</h1>
+<div id="events"></div>
+<script src="main.js"></script>
+</body>
+</html>

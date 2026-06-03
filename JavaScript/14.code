@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>jQuery Demo</title>
+<style>
+body{
+    font-family:Arial;
+    background:#eef2f7;
+    text-align:center;
+}
+.card{
+    width:300px;
+    margin:40px auto;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+    display:none;
+}
+img{
+    width:100%;
+    border-radius:10px;
+}
+button{
+    margin:10px;
+    padding:10px 20px;
+    border:none;
+    border-radius:5px;
+    color:white;
+    cursor:pointer;
+}
+#showBtn{
+    background:green;
+}
+#registerBtn{
+    background:#0056b3;
+}
+</style>
+</head>
+<body>
+<h1>
+Community Event Portal
+</h1>
+<button id="showBtn">
+Show Event
+</button>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=400">
+<h2>
+Music Festival
+</h2>
+<p>
+Join the community celebration.
+</p>
+<button id="registerBtn">
+Register
+</button>
+</div>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

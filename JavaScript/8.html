@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Event Handling</title>
+<style>
+body{
+    font-family:Arial;
+    background:#eef2f7;
+    text-align:center;
+}
+.top{
+    margin:20px;
+}
+input,select{
+    padding:8px;
+    margin:10px;
+}
+#events{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+.card{
+    width:250px;
+    background:white;
+    margin:15px;
+    padding:15px;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+}
+img{
+    width:100%;
+    border-radius:10px;
+}
+button{
+    background:green;
+    color:white;
+    border:none;
+    padding:8px 15px;
+    border-radius:5px;
+    cursor:pointer;
+}
+</style>
+</head>
+<body>
+<h1>
+Community Events
+</h1>
+<div class="top">
+<input type="text"
+id="search"
+placeholder="Search Event">
+<select id="category">
+<option value="All">
+All
+</option>
+<option value="Music">
+Music
+</option>
+<option value="Food">
+Food
+</option>
+</select>
+</div>
+<div id="events"></div>
+<script src="main.js"></script>
+</body>
+</html>
