@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DevTools Debugging</title>
+    <style>
+        #box{
+            width: 200px;
+            padding: 20px;
+            background: lightblue;
+            text-align: center;
+            margin: 50px auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        Debug Me
+    </div>
+    <button onclick="test()">
+        Click
+    </button>
+    <script>
+        let count = 0;
+        function test(){
+            count++;
+            console.log("Button Clicked");
+            console.log("Count =", count);
+            document.getElementById("box").innerHTML =
+            "Clicked " + count + " times";
+        }
+    </script>
+</body>
+</html>

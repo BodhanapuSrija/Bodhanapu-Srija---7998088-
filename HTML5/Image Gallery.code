@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Community Events Gallery</title>
+
+<style>
+
+.event-img{
+    width:180px;
+    height:120px;
+    border:4px solid #0d6efd;
+    border-radius:10px;
+}
+
+table{
+    margin:auto;
+    border-spacing:20px;
+    text-align:center;
+}
+
+caption{
+    font-size:28px;
+    font-weight:bold;
+    margin:15px;
+    color:#0d6efd;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<table>
+
+<caption>Community Events Gallery</caption>
+
+<tr>
+
+<td>
+<img src="https://images.unsplash.com/photo-1511578314322-379afb476865?w=400"
+     alt="Music Event"
+     title="Music Fest"
+     class="event-img">
+
+<p><b>Music Fest</b></p>
+</td>
+
+<td>
+<img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400"
+     alt="Workshop Event"
+     title="Coding Workshop"
+     class="event-img">
+
+<p><b>Coding Workshop</b></p>
+</td>
+
+<td>
+<img src="https://images.unsplash.com/photo-1503428593586-e225b39bddfe?w=400"
+     alt="Sports Event"
+     title="Sports Day"
+     class="event-img">
+
+<p><b>Sports Day</b></p>
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+<img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=400"
+     alt="Dance Event"
+     title="Dance Program"
+     class="event-img">
+
+<p><b>Dance Program</b></p>
+</td>
+
+<td>
+<img src="https://images.unsplash.com/photo-1515169067868-5387ec356754?w=400"
+     alt="Food Festival"
+     title="Food Festival"
+     class="event-img">
+
+<p><b>Food Festival</b></p>
+</td>
+
+<td>
+<img src="https://images.unsplash.com/photo-1517457373958-b7bdd4587205?w=400"
+     alt="Community Meeting"
+     title="Community Meeting"
+     class="event-img">
+
+<p><b>Community Meeting</b></p>
+</td>
+
+</tr>
+
+</table>
+
+</body>
+</html>

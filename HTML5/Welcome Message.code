@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Welcome Banner</title>
+    <style>
+        #welcomeBanner{
+            background-color: #0d6efd;
+            color: white;
+            padding: 30px;
+            text-align: center;
+            border-radius: 10px;
+            margin: 30px;
+        }
+        .highlight{
+            background-color: yellow;
+            padding: 5px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+        .content{
+            margin: 30px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <div id="welcomeBanner">
+        <h1>
+            Welcome Back, Student!
+        </h1>
+        <p>
+            You have successfully logged into the portal.
+        </p>
+        <p>
+            Today's
+            <span style="color: red; font-weight: bold;">
+                Special Offer:
+                Free Web Development Course
+            </span>
+        </p>
+    </div>
+    <div class="content">
+        <h2 class="highlight">
+            Important Notifications
+        </h2>
+        <p>
+            Your next assignment submission date is
+            <span class="highlight">
+                30th May 2026
+            </span>
+        </p>
+        <p>
+            Attend the
+            <span class="highlight">
+                Bootstrap Workshop
+            </span>
+            tomorrow at 10:00 AM.
+        </p>
+    </div>
+</body>
+</html>

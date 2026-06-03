@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Feedback</title>
+    <style>
+        body{
+            font-family: Arial;
+            padding: 20px;
+        }
+        img{
+            width: 150px;
+            border: 2px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <h2>Event Feedback Form</h2>
+    Phone:
+    <input type="text"
+           onblur="checkPhone(this)">
+    <br><br>
+    Event:
+    <select onchange="showFee(this.value)">
+        <option>Select</option>
+        <option value="500">Workshop</option>
+        <option value="1000">Hackathon</option>
+    </select>
+    <p id="fee"></p>
+    <img src="https://picsum.photos/200"
+         ondblclick="bigImage(this)">
+    <br><br>
+    <textarea id="msg"
+              onkeyup="countChar()"
+              placeholder="Type feedback"></textarea>
+    <p>
+        Characters:
+        <span id="count">0</span>
+    </p>
+    <button onclick="submitForm()">
+        Submit
+    </button>
+    <script>
+        function checkPhone(x){
+            if(x.value.length != 10){
+                alert("Enter 10 digit phone number");
+            }
+        }
+        function showFee(fee){
+            document.getElementById("fee").innerHTML =
+            "Event Fee: ₹" + fee;
+        }
+        function submitForm(){
+            alert("Feedback Submitted Successfully");
+        }
+        function bigImage(img){
+            img.style.width = "300px";
+        }
+        function countChar(){
+            let text =
+            document.getElementById("msg").value;
+            document.getElementById("count").innerHTML =
+            text.length;
+        }
+    </script>
+</body>
+</html>
