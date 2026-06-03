@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 2 - Bootstrap Structure</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="container my-5 text-center">
+        <h1>2. Bootstrap Structure & Plugins</h1>
+        <p class="lead">This page uses the core local folders (css/ and js/) to render components.</p>
+        
+        <button type="button" class="btn btn-primary" data-bs-toggle="popover" title="JS Status" data-bs-content="Bootstrap JS bundle linked properly!">
+            Click to Test JS Plugins
+        </button>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Initialize popovers to prove JS bundle functions correctly
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+        var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+            return new bootstrap.Popover(popoverTriggerEl)
+        })
+    </script>
+</body>
+</html>

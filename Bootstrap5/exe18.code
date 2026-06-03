@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 18 - JavaScript Behaviors</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container my-5" style="max-width: 600px;">
+        <h2>18. Dynamic Engine Behaviors</h2>
+        <h4 class="mt-4 text-muted">Exercise 18.1: Structural Overlay Modal</h4>
+        <button type="button" class="btn btn-dark w-100 mb-5" data-bs-toggle="modal" data-bs-target="#coreTriggerModal">
+            Initialize Server Overlay Window
+        </button>
+        <div class="modal fade" id="coreTriggerModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">System Management Check</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>This panel overlay confirms that the Bootstrap JavaScript engine plugins are working successfully on this browser client window thread loop.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h4 class="text-muted">Exercise 18.2: Accordion Segment Dropdown</h4>
+        <div class="accordion shadow-sm" id="accordionSystemMatrix">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#paneOne">
+                        Node Block Alpha Details
+                    </button>
+                </h2>
+                <div id="paneOne" class="accordion-collapse collapse show" data-bs-parent="#accordionSystemMatrix">
+                    <div class="accordion-body">
+                        This is the details panel for Section One. The accordion component organizes large segments of text into space-saving collapsible tabs.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#paneTwo">
+                        Node Block Beta Details
+                    </h2>
+                </h2>
+                <div id="paneTwo" class="accordion-collapse collapse" data-bs-parent="#accordionSystemMatrix">
+                    <div class="accordion-body">
+                        This is the details panel for Section Two. Clicking this head button expands this pane while automatically shutting down alternative sibling panels.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

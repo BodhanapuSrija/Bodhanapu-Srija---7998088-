@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 14 - Breakpoint Control Panels</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid my-5">
+        <h2>14. Responsive Layout Visibility Systems</h2>
+
+        <div class="alert alert-info text-center d-none d-md-block d-lg-flex justify-content-between align-items-center mb-4">
+            <span><strong>Desktop Optimization Notification Bar:</strong> Content view customized for advanced view screens.</span>
+            <span class="badge bg-primary d-none d-lg-inline-block">Exclusive Ultra-Wide Badge View</span>
+        </div>
+        <div class="row g-3">
+            <div class="col-md-4 col-lg-3 d-none d-md-block">
+                <div class="p-4 bg-light border border-end-0 rounded-start text-center" style="min-height: 300px;">
+                    <h5 class="fw-bold">Navigation Sidebar</h5>
+                    <p class="small text-muted">This panel is hidden on mobile displays automatically. Visible on tablets and up.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-8 col-lg-9">
+                <div class="p-4 bg-white border rounded text-start" style="min-height: 300px;">
+                    <h5>Primary Application Processing Engine Panel</h5>
+                    <p>This primary terminal dashboard window remains open across all mobile screen sizes.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
